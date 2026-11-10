@@ -1,0 +1,66 @@
+# Name: Joey Fetty
+# Date: November 10, 2026
+# Program Name: step01_taskA.py
+# Description: Prints a daily schedule card for the IT Academy.
+# Output: Title Block
+print("*" * 34)
+print("  MEDINA COUNTY CAREER CENTER")
+print("  IT Academy - Daily Schedule")
+print("*" * 34)
+# Output: Schedule Lines
+print("7:30  Homeroom\n7:45  Software Engineering Lab")
+print("10:15 Break\n10:30 Software Engineering Lab")
+print("12:15 Lunch\n12:45 Academics")
+# Output: Footer
+print("-" * 34)
+print("Room 112 - \"Bring your laptop!\"")
+# Name: Joey Fetty
+# Date: November 10, 2026
+# Program Name: step01_taskB.py
+# Description: Prints the menu board for Byte Bites food truck.
+# Output: Header
+print("+" + "-" * 38 + "+")
+print("|          BYTE BITES FOOD TRUCK       |")
+print("+" + "-" * 38 + "+")
+# Output: Menu Items
+print("  MAINS")
+print("    Cheeseburger ............ $6.50")
+print("    Chicken Tenders ......... $5.75")
+print("    Veggie Wrap ............. $5.25")
+print()
+print("  SIDES")
+print("    Fries ................... $2.50\n    Onion Rings ............. $3.00")
+print()
+print("  DRINKS")
+print("    Lemonade ................ $2.00\n    Bottled Water ........... $1.25")
+# Output: Footer
+print("+" + "-" * 38 + "+")
+print("Today's special: the \"Debugger\" Burger")
+print("Ask about our 'combo' deals!")
+# Name: Joey Fetty
+# Date: November 10, 2026
+# Program Name: step01_taskC.py
+# Description: Prints the command-line help screen for the gradebook tool.
+# Output: Title
+print("=" * 44)
+print("  GRADEBOOK  version 1.0\n  A tool for tracking class scores")
+print("=" * 44)
+# Output: Usage
+print("USAGE:")
+print("  gradebook [option] [file]")
+print()
+# Output: Options
+print("OPTIONS:")
+print("  -a    Add a new score")
+print("  -l    List all scores")
+print("  -r    Print a report")
+print("  -h    Show this help screen")
+print()
+# Output: Examples
+print("EXAMPLES:")
+print("  gradebook -l C:\\BPA\\scores.txt\n  gradebook -a \"Quiz 3\"")
+print()
+# Output: Footer
+print("-" * 44)
+print("Tip: options are case sensitive.\n-A is not the same as -a.")
+print("=" * 44)
